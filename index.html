@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>La Perla App</title>
+</head>
+<body>
+    <nav class="menu">
+        <img src="assets/img/logoblanco.svg" class="menu__logo" alt="logo">
+        <a href="#formulario" class="menu__link">Inscribirme</a>
+    </nav>
+
+    <section class="header">
+        <div class="header__part1">
+            <img src="assets/img/desbloquea.svg" class="header__img" alt="">
+            <img src="assets/img/morena.svg" class="header__img-2" alt="">
+        </div>
+        <div class="header__part2">
+            <div class="formulario__container">
+                <h3 class="formulario__title">Formulario de pre-inscripción</h3>
+                <p class="formulario__paragraph">Estimado prestador turístico, diligenciando el siguiente formulario de inscripción con los datos de tu oferta turística estarás pre-inscrito al PROGRAMA DE FORTALECIMIENTO LIDERADO POR LA CÁMARA DE COMERCIO DE SANTA MARTA Y LA PERLA APP. Luego te llegará un correo electrónico en el que deberás completar los demás datos para finalizar la inscripción. </p>
+                <h3 class="formulario__title">DATOS DE CONTACTO</h3>
+                <form action="" class="form">
+                    <h3 class="form__title">Preinscripción</h3>
+                    <div class="input__container">
+                        <label for="nombre" class="input__label">*Requerido <br> Nombre Completo*</label>
+                        <input type="text" name="" class="input" id="nombre">
+                    </div>
+                    <div class="input__container">
+                        <label for="correo" class="input__label">Correo Electrónico*</label>
+                        <input type="email" name="" class="input" id="correo">
+                    </div>
+                    <div class="input__container">
+                        <label for="telefono" class="input__label">Telefono*</label>
+                        <input type="text" name="" class="input" id="telefono">
+                    </div>
+                    <div class="input__container">
+                        <label for="razon" class="input__label">Nombre o razon social*</label>
+                        <input type="text" name="" class="input" id="razon">
+                    </div>
+                    <div class="input__container">
+                        <label for="select" class="input__label">Cuenta con*</label>
+                        <select name="" id="select" class="input">
+                            <option value="" class="option"></option>
+                            <option value="" class="option">Registro Camara de Comercio</option>
+                            <option value="" class="option">Tarjeta Guia de Turismo</option>
+                            <option value="" class="option">Ninguno de los anteriores</option>
+                        </select>
+                    </div>
+                    <div class="input__container">
+                        <label for="guia" class="input__label">Diligencia el número de Cámara de Comercio o Tarjeta de Guía*</label>
+                        <input type="text" name="" class="input" id="guia">
+                    </div>
+                    <div class="input__container politica">
+                        <input type="checkbox" name="" id="radio">
+                        <label for="radio" class="input__label">He leído y acepto la política de privacidad y <span>proteccion de datos personales</span></label>
+                    </div>
+                    <div class="input__container">
+                        <input type="submit" class="button" value="Enviar pre-inscripción">
+                    </div>
+                </form>
+            </div>
+            <div class="reloj">
+                <div class="bloque">
+                    <p>Quedan</p><p class="dias" id="dias">16</p><p>dias /</p>
+                </div>
+                <div class="bloque">
+                    <p class="horas" id="horas">00</p><p>horas /</p>
+                </div>
+                <div class="bloque">
+                    <p class="minutos" id="minutos">00</p><p>minutos /</p>
+                </div>
+                <div class="bloque">
+                    <p class="segundos" id="segundos">00</p><p>segundos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="terminos container">
+        <div class="dis"></div>
+        <div class="terminos__section">
+            <div class="termino__title">
+                <h3 class="terminos__title">¿Quiénes pueden  <br> Inscribirse?</h3>
+            </div>
+            <div class="termino__paragraph">
+                <p class="terminos__paragraph">Cualquier tipo de prestador turístico con operación en el departamento del Magdalena que busque fortalecer su negocio para obtener mejores resultados y que cumpla con los requisitos establecidos en los términos y condiciones. </p>
+            </div>
+            <div class="container__button">
+                <a href="#" class="terminos__button">Descargar términos y condiciones</a>
+            </div>
+            <div class="container__button">
+                <a href="#" class="terminos__button">Carta de compromiso</a>
+            </div>
+            <div class="timer">
+                <p>Convocatoria disponible hasta (30) de noviembre de 2022.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="programa__containe">
+        <div class="programa container">
+            <div class="programa__texts">
+                <h3 class="programa__title"> ¿Por qué ser parte del Programa de Fortalecimiento e Impulso de La Perla App?</h3>
+                <p class="programa__paragraph">El proyecto busca agrupar la más grande y completa oferta turística (gastronómica, hotelera, turística y cultural) articulando a los prestadores de estos servicios turísticos del departamento del Magdalena con el objetivo de aumentar el aprovechamiento del turismo y posicionar la oferta a nivel nacional e internacional.</p>
+            </div>
+            <div class="programa__video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dyN6Yz8RIBA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="sub">
+        <div class="sub__container">
+            <p class="sub__paragraph">Conoce los beneficios que puedes obtener con el <b> de Fortalecimiento Empresarial de  <span>La Perla App.</span></b></p>
+        </div>
+    </section>
+
+    <section class="beneficios">
+        <div class="beneficios__img-cont">
+            <img src="assets/img/morenafondoazul.png" alt="" class="beneficio__img">
+        </div>
+        <div class="beneficios__list">
+            <ul class="list">
+                <li class="list__item"><i class='bx bx-check-circle list__icon'></i>Acceso gratuito al uso de las herramientas de la aplicación La Perla App por 6 meses.</li>
+                <li class="list__item"><i class='bx bx-check-circle list__icon'></i>Acceso a espacios de 24 horas de entrenamiento en mercadeo digital, transformación digital y liderazgo ágil.</li>
+                <li class="list__item"><i class='bx bx-check-circle list__icon'></i>Acceso a una bolsa de cuarenta (40) horas de asesorías personalizadas y especializadas para el mejoramiento de sus productos y servicios en: Alfabetización digital, buenas prácticas de manufactura, servicio al cliente, bilingüismo, formalización y desarrollo de experiencias turísticas.</li>
+                <li class="list__item"><i class='bx bx-check-circle list__icon'></i>Visibilización a nivel nacional de sus productos y servicios a través de campañas de mercadeo digital.</li>
+                <li class="list__item"><i class='bx bx-check-circle list__icon'></i>Ser parte del primer sistema de lealtad de la aplicación, donde podrán recibir descuentos e invitaciones especiales.</li>
+                <li class="list__item"><i class='bx bx-check-circle list__icon'></i>Informes detallados del avance de sus productos y servicios en la plataforma y recomendaciones sobre el mejoramiento de sus ventas en canales digitales.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="empresarios__container">
+        <div class="empresarios container">
+            <div class="empresarios__imgs">
+                <img src="assets/img/cocina.png" class="empresarios__img" alt="">
+            </div>
+            <div class="empresarios__texts">
+                <p class="empresario__paragraph">CONOCE LOS EMPRESARIOS QUE YA ESTÁN INSCRITOS EN EL PROGRAMA DE FORTALECIMIENTO DE LA PERLA APP. INSCRÍBETE Y HAZ PARTE TÚ TAMBIÉN.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="pregunta__container">
+        <div class="pregunta container">
+            <div class="pregunta__texts">
+                <h3 class="pregunta__title"> ¿Tienes dudas sobre la convocatoria?  </h3>
+                <h4 class="pregunta__subtitle"> Déjanos tus datos y te contactaremos  </h4>
+            </div>
+            <form action="" class="pregunta__form">
+                <label for="">Nombre</label>
+                <input type="text" name="" class="pregunta__form--input" id="">
+                <label for="">Correo Electrónico</label>
+                <input type="email" name="" class="pregunta__form--input" id="">
+                <label for="">Telefono</label>
+                <input type="text" name="" class="pregunta__form--input" id="">
+                <div>
+                    <input type="submit" class="pregunta__button" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="aliados">
+        <div class="aliados__imgs">
+            <img src="assets/img/aliados.svg" class="aliado__img" alt="">
+        </div>
+        <div class="logos">
+            <img src="assets/img/ministerio.svg" alt="" class="logos__img imges">
+            <img src="assets/img/sgr.svg" alt="" class="logos__img">
+            <img src="assets/img/camara.svg" alt="" class="logos__img">
+            <img src="assets/img/vital.svg" alt="" class="logos__img">
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__links">
+                <div class="footer__logo">
+                    <img src="assets/img/logoblanco.svg" alt="">
+                </div>
+                <div class="links__text">
+                    <p class="link__paragraph">Descarga la aplicación haciendo clic en el siguite enlace:</p>
+                </div>
+                <div class="footer__imgs">
+                    <img src="assets/img/googleplay.svg" alt="">
+                    <img src="assets/img/applestore.svg" alt="">
+                </div>
+            </div>
+            <div class="legal">
+                <h3 class="legal__title">Legal</h3>
+                <p class="legal__paragrph">Terminos y condiciones</p>
+                <p class="legal__paragrph">Politica de privacidad</p>
+            </div>
+            <div class="contacto">
+                <h3 class="contacto__title">Contacto</h3>
+                <p class="contacto__paragraph"><i class='bx bxs-been-here'></i> Calle 24 #2 – 66 Edificio Cámara de Comercio Santa Marta, Magdalena</p>
+                <p class="contacto__paragraph"><i class='bx bx-phone'></i> 321 8150243</p>
+                <p class="contacto__paragraph"><i class='bx bxs-envelope'></i> convocatorias@laperlaapp.com </p>
+            </div>
+        </div>
+        <div class="footer__social">
+            <div class="footer__icons">
+                <i class='bx bxl-facebook footer__icon'></i>
+                <i class='bx bxl-instagram footer__icon'></i>
+            </div>
+            <div class="footer__decore">
+                <img src="assets/img/Rectangulo-iz.svg" class="decore__img" alt="">
+                <img src="assets/img/Rectangulo-de.svg" class="decore__img" alt="">
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
